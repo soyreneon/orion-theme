@@ -1,0 +1,39 @@
+{
+  "name": "orion-theme",
+  "displayName": "Orion Theme",
+  "description": "Orion theme based colors",
+  "publisher": "soyreneon",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.105.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "galleryBanner": {
+    "color": "#171A2F",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soyreneon/rock-bottom"
+  },
+  "icon": "media/logo.jpg",
+  "keywords": [
+    "color-theme",
+    "dark",
+    "theme",
+    "tema",
+    "theme-tuner",
+    "colorblind"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Orion",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Orion-color-theme.json"
+      }
+    ]
+  }
+}
