@@ -18,7 +18,7 @@
     "type": "git",
     "url": "https://github.com/soyreneon/rock-bottom"
   },
-  "icon": "media/logo.jpg",
+  "icon": "media/orion-constellation.webp",
   "keywords": [
     "color-theme",
     "dark",
@@ -32,7 +32,7 @@
       {
         "label": "Orion",
         "uiTheme": "vs-dark",
-        "path": "./themes/Orion-color-theme.json"
+        "path": "./themes/orion-color-theme.json"
       }
     ]
   }
