@@ -1,6 +1,6 @@
 {
 	"$schema": "vscode://schemas/color-theme",
-	"name": "Rock Bottom",
+	"name": "Orion",
 	"type": "dark",
 	"semanticHighlighting": true,
 	"tokenColors": [
