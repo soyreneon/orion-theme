@@ -1,4 +1,4 @@
-# orion-theme
+# Orion Theme
 
 Theme inspired of orion colors
 

@@ -3,7 +3,7 @@
   "displayName": "Orion Theme",
   "description": "Orion theme based colors",
   "publisher": "soyreneon",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.105.0"
   },
