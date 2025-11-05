@@ -3,7 +3,7 @@
   "name": "Orion",
   "type": "dark",
   "semanticHighlighting": true,
-  "semanticTokens": {
+  "semanticTokenColors": {
     "property.readonly": {
       "foreground": "#c30fd0"
     },
