@@ -3,6 +3,14 @@
   "name": "Orion",
   "type": "dark",
   "semanticHighlighting": true,
+  "semanticTokens": {
+    "property.readonly": {
+      "foreground": "#c30fd0"
+    },
+    "variable.declaration": {
+      "foreground": "#1a9cff"
+    }
+  },
   "tokenColors": [
     {
       "scope": [
@@ -90,14 +98,18 @@
         "markup.underline.link",
         "support.class.component",
         "support.type",
-        "variable.other.constant",
-        "variable.readonly",
         "constant.language.boolean.json",
         "support.type.property-name",
         "entity.name.tag.yaml"
       ],
       "settings": {
         "foreground": "#1a9cff"
+      }
+    },
+    {
+      "scope": ["variable.other.constant", "variable.readonly"],
+      "settings": {
+        "foreground": "#ededed"
       }
     },
     {
@@ -214,6 +226,12 @@
       ],
       "settings": {
         "foreground": "#ff495d"
+      }
+    },
+    {
+      "scope": "support.variable",
+      "settings": {
+        "foreground": "#11ccff"
       }
     }
   ],
