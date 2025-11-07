@@ -34,10 +34,12 @@
         "punctuation.definition.tag",
         "punctuation.separator",
         "punctuation.definition.string",
-        "punctuation.section.block"
+        "punctuation.section.block",
+        "variable.other.constant",
+        "variable.readonly"
       ],
       "settings": {
-        "foreground": "#EDEDED"
+        "foreground": "#ededed"
       }
     },
     {
@@ -107,15 +109,9 @@
       }
     },
     {
-      "scope": ["variable.other.constant", "variable.readonly"],
-      "settings": {
-        "foreground": "#ededed"
-      }
-    },
-    {
       "scope": "entity.name.function",
       "settings": {
-        "foreground": "#27edb7"
+        "foreground": "#00e5cc"
       }
     },
     {
@@ -178,7 +174,7 @@
         "comment.line.documentation"
       ],
       "settings": {
-        "foreground": "#A3A3A3"
+        "foreground": "#a3a3a3"
       }
     },
     {
@@ -285,7 +281,6 @@
     "editorInlayHint.typeBackground": "#33498a",
     "editorBracketMatch.border": "#33498a",
     "editorGroup.border": "#33498a",
-    "tab.unfocusedHoverBackground": "#33498a",
     "tab.border": "#33498a",
     "editorSuggestWidget.border": "#33498a",
     "editorSuggestWidget.selectedBackground": "#33498a",
@@ -306,21 +301,7 @@
     "input.border": "#33498a",
     "inputOption.activeBorder": "#33498a",
     "dropdown.border": "#33498a",
-    "editor.lineHighlightBackground": "#253545",
-    "editor.findRangeHighlightBackground": "#253545aa",
-    "tab.inactiveBackground": "#253545",
-    "peekViewResult.background": "#253545",
-    "titleBar.inactiveBackground": "#253545",
-    "sideBarSectionHeader.background": "#253545",
-    "list.activeSelectionBackground": "#253545",
-    "list.hoverBackground": "#253545",
-    "input.background": "#253545",
-    "dropdown.background": "#253545",
-    "editor.findMatchBackground": "#003ef1",
-    "editor.findMatchHighlightBackground": "#003ef1dd",
-    "tab.unfocusedInactiveModifiedBorder": "#003ef1",
-    "inputValidation.infoBorder": "#003ef1",
-    "editor.inactiveSelectionBackground": "#194632ee",
+    "tab.unfocusedHoverBackground": "#192e46",
     "editor.lineHighlightBorder": "#192e46",
     "notifications.background": "#192e46",
     "editorHoverWidget.background": "#192e46",
@@ -329,6 +310,23 @@
     "editorWidget.background": "#192e46",
     "peekViewResult.selectionBackground": "#192e46",
     "inputOption.activeBackground": "#192e46",
+    "editor.lineHighlightBackground": "#253545",
+    "editor.findRangeHighlightBackground": "#253545aa",
+    "tab.inactiveBackground": "#253545",
+    "peekViewResult.background": "#253545",
+    "titleBar.inactiveBackground": "#253545",
+    "sideBarSectionHeader.background": "#253545",
+    "list.hoverBackground": "#253545",
+    "input.background": "#253545",
+    "dropdown.background": "#253545",
+    "list.activeSelectionBackground": "#1e4c67",
+    "editorIndentGuide.background1": "#1e4c67",
+    "list.inactiveSelectionBackground": "#1e4c67",
+    "editor.findMatchBackground": "#003ef1",
+    "editor.findMatchHighlightBackground": "#003ef1dd",
+    "tab.unfocusedInactiveModifiedBorder": "#003ef1",
+    "inputValidation.infoBorder": "#003ef1",
+    "editor.inactiveSelectionBackground": "#194632ee",
     "editor.rangeHighlightBackground": "#74747ba1",
     "editorWhitespace.foreground": "#74747b",
     "editorLineNumber.foreground": "#74747b",
@@ -338,8 +336,6 @@
     "panelTitle.activeBorder": "#74747b",
     "statusBar.noFolderBackground": "#74747b",
     "sideBar.activeBackground": "#74747b",
-    "editorIndentGuide.background1": "#1e4c67",
-    "list.inactiveSelectionBackground": "#1e4c67",
     "editorGutter.modifiedBackground": "#33fff5",
     "merge.incomingHeaderBackground": "#33fff577",
     "merge.incomingContentBackground": "#33fff577",
@@ -395,6 +391,6 @@
     "list.errorForeground": "#ff5c71",
     "gitDecoration.deletedResourceForeground": "#dc727c",
     "gitDecoration.modifiedResourceForeground": "#eff186",
-    "gitDecoration.untrackedResourceForeground": "#27edb7"
+    "gitDecoration.untrackedResourceForeground": "#00e5cc"
   }
 }

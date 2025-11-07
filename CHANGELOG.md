@@ -4,6 +4,10 @@ All notable changes to the "orion-theme" extension will be documented in this fi
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.0.7]
+
+- remove repeated json colors, replaces and add new ones
+
 ## [0.0.6]
 
 - fix json colors and add tags
