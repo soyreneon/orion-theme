@@ -4,9 +4,9 @@ All notable changes to the "orion-theme" extension will be documented in this fi
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [0.0.8]
+## [0.0.9]
 
-- add navy version
+- add navy version and fix version control
 
 ## [0.0.7]
 
