@@ -36,6 +36,11 @@
         "label": "Orion",
         "uiTheme": "vs-dark",
         "path": "./themes/orion-color-theme.json"
+      },
+      {
+        "label": "Orion Navy",
+        "uiTheme": "vs-dark",
+        "path": "./themes/orion-navy-color-theme.json"
       }
     ]
   }
