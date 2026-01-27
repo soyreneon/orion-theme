@@ -3,7 +3,7 @@
   "displayName": "Orion Theme",
   "description": "Orion theme based colors",
   "publisher": "soyreneon",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "engines": {
     "vscode": "^1.15.0"
   },
@@ -41,6 +41,11 @@
         "label": "Orion Navy",
         "uiTheme": "vs-dark",
         "path": "./themes/orion-navy-color-theme.json"
+      },
+      {
+        "label": "Orion Navy (high contrast)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/orion-navy-high-contrast-color-theme.json"
       }
     ]
   }
