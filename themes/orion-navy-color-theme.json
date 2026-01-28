@@ -26,7 +26,6 @@
         "meta.property",
         "constant.character.escape",
         "constant.other.placeholder",
-        "constant.language.boolean",
         "constant.language.json",
         "variable.function",
         "punctuation",
@@ -39,6 +38,23 @@
       ],
       "settings": {
         "foreground": "#dedede"
+      }
+    },
+    {
+      "scope": [
+        "constant.language.boolean",
+        "keyword.control.import",
+        "keyword.control.from",
+        "keyword.import",
+        "storage.modifier",
+        "keyword.modifier",
+        "storage.type",
+        "keyword.control.exception",
+        "keyword.control.trycatch",
+        "punctuation.definition.heading.markdown"
+      ],
+      "settings": {
+        "foreground": "#fa6bff"
       }
     },
     {
@@ -184,22 +200,6 @@
       "scope": ["keyword", "keyword.operator"],
       "settings": {
         "foreground": "#fc864d"
-      }
-    },
-    {
-      "scope": [
-        "keyword.control.import",
-        "keyword.control.from",
-        "keyword.import",
-        "storage.modifier",
-        "keyword.modifier",
-        "storage.type",
-        "keyword.control.exception",
-        "keyword.control.trycatch",
-        "punctuation.definition.heading.markdown"
-      ],
-      "settings": {
-        "foreground": "#fa6bff"
       }
     },
     {
@@ -355,6 +355,7 @@
     "editor.lineHighlightBackground": "#192e46",
     "sideBarSectionHeader.background": "#192e46",
     "editor.inactiveSelectionBackground": "#192e46ee",
+    "statusBar.noFolderBackground": "#192e46",
     "editor.findRangeHighlightBackground": "#253545aa",
     "peekViewResult.background": "#253545",
     "titleBar.inactiveBackground": "#253545",
@@ -375,7 +376,6 @@
     "peekViewEditor.matchHighlightBackground": "#74747b",
     "peekViewResult.matchHighlightBackground": "#74747b",
     "merge.commonContentBackground": "#74747bee",
-    "statusBar.noFolderBackground": "#74747b",
     "sideBar.activeBackground": "#74747b",
     "editorGutter.modifiedBackground": "#33f0ff",
     "merge.incomingHeaderBackground": "#33f0ff99",
