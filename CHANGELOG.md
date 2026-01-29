@@ -4,6 +4,10 @@ All notable changes to the "orion-theme" extension will be documented in this fi
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.0.12]
+
+- enhance high contrast version
+
 ## [0.0.11]
 
 - add navy high contrast version and fix release
